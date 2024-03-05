@@ -75,6 +75,7 @@ Some of the data for the project is contained in the "data" folder of this repos
 - NRC-Emotion-Lexicon-Wordlevel-v0.92.txt: a dictionary of emotional words in english. Used in Text_analyzer.ipynb
 - news_word2vec.model: a Word2Vec model of the semantic space in the news corpus
 - sm_word2vec.model: a Word2Vec model of the semantic space in the social media corpus
+  
 Additionally, data files too large to be stored on github are found in the following links:
 - [full data set](https://uchicago.box.com/s/7m1l1qdyuycqhe0qfxobls8f1zi556xp)
 - [all news](https://uchicago.box.com/s/c7r3jt7jnz610l98gkt60i2de0yr1gfp)
