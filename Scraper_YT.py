@@ -1,3 +1,8 @@
+## Scraper for YouTube
+''' 
+This code takes in a dictionary of the channel as key and list of urls to scrape
+as values and scrapes the title, date, channel name, transcript, and comments.
+'''
 # Importing needed packages
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
