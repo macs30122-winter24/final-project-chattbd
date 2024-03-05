@@ -20,13 +20,13 @@ Jupyter notebook used to create the lists of words (emotional, topical, israel, 
 - sklearn 1.3.0
 - pandas 2.0.3
 
-### Data_cleaning_processing_etc
+### Data_cleaning_processing_etc.ipynb
 Jupyter notebook used to clean up, process, and prepare all data for future analyses. Notebook also used for creating some of the exploratory data analysis visuals. 
 The libraries used in this notebook are:
 - pandas 2.2.0
 - numpy 1.25.2
 - beautifulsoup4 4.12.2
-- reqyests 2.31.0
+- requests 2.31.0
 - tqdm 4.65.0
 - spacy 3.7.2
 - gensim 4.3.0
@@ -34,6 +34,15 @@ The libraries used in this notebook are:
 - wordlcoud 1.9.3
 - seaborn 0.12.2
 - sklearn 0.0.post11
+
+## reddit-scrapper.ipynb
+This notebook was used to scrape data from Reddit, specifically non dynamically using old.Reddit.com.
+The libraries used in this notebook are:
+- pandas 2.2.0
+- numpy 1.25.2
+- beautifulsoup4 4.12.2
+- requests 2.31.0
+
 
 ### Data gathering
 We gathered our data from 4 main sources, Youtube, Reddit, cnn, and foxnews. We implemented dynamic scrappers using selenium to gather the data from Youtube and the news websites. We were able to gather the Reddit data using normal scraping off of the old.Reddit.com website. 
