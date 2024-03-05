@@ -66,7 +66,7 @@ def gather_all_links(urls_lst, channels_lst):
     ''' 
     The function that brings everything together to crawl all playlists of 
     interest.
-    
+
     Inputs:
         urls_lst (list): a list of playlist links
         channels_lst (list): a playlist of channel names, ordered in the same
@@ -101,15 +101,14 @@ def gather_all_links(urls_lst, channels_lst):
     driver.quit()
     return links_dict
 
+###############################################################################
+
+channels_lst = ['Al Jazeera English', 'CNN', 'Fox News']
 playlist_urls = [
     'https://www.youtube.com/playlist?list=PLzGHKb8i9vTzMMCXlnEHxb8QLwE80xorb',
     'https://youtube.com/playlist?list=PL6XRrncXkMaU55GiCvv416NR2qBD_xbmf',
     'https://www.youtube.com/playlist?list=PLlTLHnxSVuIyMU4Q4I8NsLAVK1iNANGW9' 
     ]
-
-###############################################################################
-
-channels_lst = ['Al Jazeera English', 'CNN', 'Fox News']
 
 links_dict = gather_all_links(playlist_urls, channels_lst)
 

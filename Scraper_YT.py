@@ -336,7 +336,7 @@ def df_dict(csv_file):
             and value is a list of links to scrape.
     '''
 
-    df = pd.read_csv("csv_file")
+    df = pd.read_csv("csv_file", header = None)
     dict_new= {}
 
     for row in df.itertuples():
