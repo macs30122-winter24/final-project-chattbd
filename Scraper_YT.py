@@ -19,6 +19,7 @@ import random
 import time
 import csv
 import pandas as pd
+from ast import literal_eval
 
 options = Options()
 options.add_argument('--disable-blink-features=AutomationControlled')
@@ -340,7 +341,7 @@ def df_dict(csv_file):
     dict_new= {}
 
     for row in df.itertuples():
-        dict_new[row._1] = row._2
+        dict_new[row._1] = literal_eval(row._2)
     
     return dict_new
 
