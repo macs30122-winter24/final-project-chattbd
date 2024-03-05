@@ -92,4 +92,4 @@ Additionally, data files too large to be stored on github are found in the follo
 The slides for our project are available [here](https://docs.google.com/presentation/d/1EXfl5mTUGFtI3p69C_kS19-dEpcnX3zp/edit?usp=sharing&ouid=100471119288052324164&rtpof=true&sd=true).
 
 ## Video
-The video presentation for our project is available [here](ADD LINK).
+The video presentation for our project is available [here](change_me).
