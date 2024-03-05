@@ -24,11 +24,13 @@ Jupyter notebook used to create the lists of words (emotional, topical, israel, 
 - random
 - time
 - ast
+  
 ## Data
-The data sources for the project are contained in the "folder" of this repository. It contains:
+Some of the data for the project is contained in the "data" folder of this repository. It contains:
 - NRC-Emotion-Lexicon-Wordlevel-v0.92.txt: a dictionary of emotional words in english. Used in Text_analyzer.ipynb
 - news_word2vec.model: a Word2Vec model of the semantic space in the news corpus
 - sm_word2vec.model: a Word2Vec model of the semantic space in the social media corpus
+Additionally, data files to large to be stored on github are found in the following links:
 - ADD BOX LINKS TO TEXT DATA
 
 ## Responsabilities in the project
