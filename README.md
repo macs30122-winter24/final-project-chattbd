@@ -22,9 +22,9 @@ The libraries used in this notebook are:
 
 ## Tasks
 - Alejandro Sarria: Data analysis and data visualization
-- Nour Abdelbaki:
-- Ethan Kozlowski:
-- Nalin Bhatt: 
+- Nour Abdelbaki: Scraping Youtube, 
+- Ethan Kozlowski: scraping Reddit, data cleaning, wrangling, analysis, visualization
+- Nalin Bhatt: Scraping News websites (CNN, Fox)
 
 ## Slides (link)
 
