@@ -1,2 +1,13 @@
 *.csv
 *.pkl
+.DS_Store
+CleaningYT.py
+Crawler_YT_edited.py
+README-1.md
+TESTING_YT.py
+Youtube_Scraper.py
+Youtube_Scraper_2.py
+__pycache__/
+chromedriver
+reddit-scrapper- mistake.ipynb
+reddit-scrapper.ipynb
