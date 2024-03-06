@@ -40,6 +40,33 @@ The libraries used in these script files are:
 - random
 - time
 - ast
+
+#### cnn_scraper_crawler.ipynb 
+Contains code for scraping and crawling the cnn news articles. More details in the notebook 
+
+The libraries used are:-
+- selenium 4.17.2
+- csv 
+- time 
+- json 
+- csv 
+- datetime
+- random 
+
+#### fox_scraper_crawler.ipynb 
+
+
+#### cnn_scraper_crawler.ipynb 
+Contains code for scraping and crawling the fox news articles:-
+
+The libraries used are: 
+- selenium 4.17.2
+- csv 
+- time 
+- json 
+- csv 
+- datetime
+- random 
   
 ### Preprocessing
 All data came in the form of text. Though we gathered data for time, due to a lack of time, we did incorporate a temporal component to this project. The data processing largely occured in 4 majors steps. The first step was going through all the individual Youtube (Fox, CNN, and Al Jazeera), Reddit posts, and the articles from the news sites. We removed hyperlinks, closed captioning speaker attributions (when necessary for Youtube). We also generally removed any character that did not match this regular expression: r"""[^a-zA-Z\d\s\[\]\-\#\.\?\,\&\<\>\!\@\$\%\^\*\+\=\:\;\\/\%\'\"]""". 
