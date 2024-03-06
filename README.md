@@ -54,9 +54,6 @@ The libraries used are:-
 - random 
 
 #### fox_scraper_crawler.ipynb 
-
-
-#### cnn_scraper_crawler.ipynb 
 Contains code for scraping and crawling the fox news articles:-
 
 The libraries used are: 
