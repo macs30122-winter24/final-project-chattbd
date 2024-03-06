@@ -53,7 +53,7 @@ def gather_links(url):
     '''
     This function gathers all elements by XPATH that will hold links for videos.
 
-    Input: None
+    Input: url (string): a playlist link
     Returns: a list of driver objects/elements.
     '''
     driver = webdriver.Chrome(service = service, options = options)
